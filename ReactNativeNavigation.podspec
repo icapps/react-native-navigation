@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/wix/react-native-navigation.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
-  s.exclude_files  = "ios/ReactNativeNavigationTests/**/*.*"
 
   s.dependency 'React'
   s.frameworks = 'UIKit'
